@@ -1,0 +1,28 @@
+API:
+1) get all employees
+method=get
+Input=NA
+URL=http://localhost:5000/api/getemps/
+
+2) get perticular emp detail
+
+method=get
+Input=empid
+URL=http://localhost:5000/api/getemp?empid=<empid>
+e.g http://localhost:5000/api/getemp?empid=101
+
+3) delete employee
+method=delete
+Input=empid
+URL=http://localhost:5000/api/deleteemp?empid=<empid>
+e.g http://localhost:5000/api/deleteemp?empid=8798
+
+4)Insert new employee
+method=post
+Input=eid,ename,salary
+URL=http://localhost:5000/api/newemp
+
+5)Update employee
+method=put
+Input=eid,ename,salary
+URL=http://localhost:5000/api/updateemp
